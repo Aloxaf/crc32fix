@@ -1,0 +1,18 @@
+[package]
+name = "crc32fix"
+version = "1.0.0"
+authors = ["Aloxaf <aloxafx@gmail.com>"]
+description = "fix png's length or height according to its crc32 checksum"
+documentation = "https://github.com/Aloxaf/crc32fix"
+repository = "https://github.com/Aloxaf/crc32fix"
+readme = "README.md"
+keywords = ["png", "CTF"]
+categories = ["command-line-utilities"]
+license = "MIT"
+edition = "2018"
+
+[dependencies]
+png = "0.13.2"
+crc = "1.8.1"
+clap = { version = "2.32.0", features = ["yaml"] }
+failure = "0.1.5"
